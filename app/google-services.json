@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "103821595345",
+    "project_id": "mychatapp-cfde6",
+    "storage_bucket": "mychatapp-cfde6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103821595345:android:b38cfdd129d65a9e00ebf0",
+        "android_client_info": {
+          "package_name": "com.example.chatmessenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj_lIn9ssHQbX9Pedi5DAGortN7bjaIxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
