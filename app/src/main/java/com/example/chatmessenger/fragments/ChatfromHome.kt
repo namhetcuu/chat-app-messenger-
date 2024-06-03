@@ -129,7 +129,7 @@ class ChatfromHome : Fragment() {
     private fun initRecyclerView(list: List<Messages>) {
 
 
-        adapter = MessageAdapter()
+        adapter = MessageAdapter(context)//here
 
         val layoutManager = LinearLayoutManager(context)
 

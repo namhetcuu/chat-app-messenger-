@@ -62,6 +62,13 @@ class Utils {
             return stringdate
 
         }
+        fun getDays(): String{
+            val formatter = SimpleDateFormat("dd/MM/yyyy")
+            val date: Date = Date(getDays())
+            val stringDate = formatter.format(date)
+
+            return stringDate
+        }
 
         // not using
 

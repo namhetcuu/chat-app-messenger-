@@ -21,17 +21,24 @@
         android:layout_marginRight="8dp"/>
 
 
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:fontFamily="@font/nunito"
+        android:id="@+id/show_message"
+        android:textStyle="italic"
+        android:gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"/>
 
         <ImageView
             android:layout_width="150dp"
             android:scaleType="centerCrop"
-            android:backgroundTint="@color/black"
             android:src="@drawable/logo"
             android:id="@+id/imageviewtext"
             android:background="@drawable/border_solid"
             android:layout_height="210dp"/>
-
 
 </LinearLayout>
     </layout>

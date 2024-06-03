@@ -5,7 +5,8 @@ data class Messages(
     val receiver: String = "",
     val message: String = "",
     val time: String? = "",
-    val imageUrl: String? = ""
+    val days: String? = "",
+    val imageUrl: String? = null
 
 ) {
 

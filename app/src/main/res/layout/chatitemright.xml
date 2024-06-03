@@ -21,6 +21,13 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="8dp"/>
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:scaleType="centerCrop"
+        android:backgroundTint="@color/black"
+        android:id="@+id/imageviewtext"
+
+        android:layout_height="wrap_content"/>
 
         <TextView
             android:layout_width="wrap_content"
